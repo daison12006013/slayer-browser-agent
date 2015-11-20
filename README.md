@@ -1,10 +1,16 @@
 # Phalcon Slayer Browser Agent
 
-Supporting Phalcon Browser Agent
 
-To enable this package to your Slayer App, include this code in your ``config/app.php services``
+To install this Phalcon Slayer Package, add this in your ``bootstrap/generate-composer``
 
-    Daison\Agent\BrowserAgentServiceProvider::class,``
+    TODO...
+
+To enable this package in your app, include this code below in your ``config/app.php``, the service provider will be registered
+
+    'services' => [
+        // ...
+        Daison\Agent\BrowserAgentServiceProvider::class,
+    ],
 
 
 After this, go to your app/modules.php and add this to your modules
