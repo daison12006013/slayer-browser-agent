@@ -1,0 +1,6 @@
+{
+    "name": "daison/browseragent",
+    "require": {
+        "jenssegers/agent": "^2.3"
+    }
+}
