@@ -1,6 +1,16 @@
 {
-    "name": "daison/browseragent",
+    "name": "daison12006013/slayer-browser-agent",
+    "type": "library",
+    "description": "Yet your way to detect user devices and point it to a separated views folder, for Phalcon Slayer.",
+    "keywords": ["phalcon","slayer","package","library"],
+    "homepage": "https://github.com/daison12006013/slayer-browser-agent",
+    "license" : "MIT",
     "require": {
         "jenssegers/agent": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Daison\\Agent\\": "src/"
+        }
     }
 }
